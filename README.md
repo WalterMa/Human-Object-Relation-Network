@@ -4,9 +4,9 @@
 
 ## Introduction
 
-Source Codes for the ICME 2020 paper: "Human-object Relation Network for Action Recognition in Still Images". View in [IEEE Digital Library](https://ieeexplore.ieee.org/document/9102933).
+Source Codes for the ICME 2020 paper: "Human-object Relation Network for Action Recognition in Still Images". 
 
----
+View in [IEEE Digital Library](https://ieeexplore.ieee.org/document/9102933).
 
  Surrounding object information has been widely used for action recognition. However, the relation between human and object,
  as an important cue, is usually ignored in the still image action recognition field. In this paper, we propose a novel 
