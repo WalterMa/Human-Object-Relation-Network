@@ -38,9 +38,9 @@ The optional packages are only required if you want to detect object bounding bo
 
 | Name        | Dataset Download Link | Detected Object BBoxes |
 |-------------|:-----------------------:|:-----------------------:|
-| VOC 2012    | [Dataset Website](http://host.robots.ox.ac.uk:8080/pascal/VOC/voc2012/index.html#devkit) | [Baidu Net Disk](https://pan.baidu.com/s/1TOo-7M5JgROCuqinikRSeg) (PassCode: z53z) |
-| Stanford 40 | [Dataset Website](http://vision.stanford.edu/Datasets/40actions.html) | [Baidu Net Disk](https://pan.baidu.com/s/1TOo-7M5JgROCuqinikRSeg) (PassCode: z53z) |
-| HICO        | [Dataset Website](http://www-personal.umich.edu/~ywchao/hico/) | [Baidu Net Disk](https://pan.baidu.com/s/1TOo-7M5JgROCuqinikRSeg) (PassCode: z53z) |
+| VOC 2012    | [Dataset Website](http://host.robots.ox.ac.uk:8080/pascal/VOC/voc2012/index.html#devkit) | [Dropbox](https://www.dropbox.com/sh/j7tsg5se05syua2/AAC0BhoKMs0OeCI4kYokHe9Sa?dl=0) OR [Baidu Net Disk](https://pan.baidu.com/s/1TOo-7M5JgROCuqinikRSeg) (PassCode: z53z) |
+| Stanford 40 | [Dataset Website](http://vision.stanford.edu/Datasets/40actions.html) | [Dropbox](https://www.dropbox.com/sh/j7tsg5se05syua2/AAC0BhoKMs0OeCI4kYokHe9Sa?dl=0) OR [Baidu Net Disk](https://pan.baidu.com/s/1TOo-7M5JgROCuqinikRSeg) (PassCode: z53z) |
+| HICO        | [Dataset Website](http://www-personal.umich.edu/~ywchao/hico/) | [Dropbox](https://www.dropbox.com/sh/j7tsg5se05syua2/AAC0BhoKMs0OeCI4kYokHe9Sa?dl=0) OR [Baidu Net Disk](https://pan.baidu.com/s/1TOo-7M5JgROCuqinikRSeg) (PassCode: z53z) |
 
 **Note:**
 For easy to use, we provide the object bounding boxes used in our paper, which are detected by Faster RCNN. 
@@ -63,7 +63,7 @@ For easy to use, we provide the object bounding boxes used in our paper, which a
 ## Training
 
 1. Download the pretrained ResNet-50/101 weights, put the weights into `~/.mxnet/models/`.
-   - ResNet Weights: [Baidu Net Disk](https://pan.baidu.com/s/1mcnFX0xEZ_h7oexdHKMBfA) (PassCode: ab4r)
+   - ResNet Weights: [Dropbox](https://www.dropbox.com/sh/saybys4tevjmv6r/AADxUT04FGfdAx9nI0EAH6_Ca?dl=0) OR [Baidu Net Disk](https://pan.baidu.com/s/1mcnFX0xEZ_h7oexdHKMBfA) (PassCode: ab4r)
 2. Execute the shell script in `./experiments/[dataset]/`, such as:
    ```text
    sh ./experiments/VOC2012/train.sh
@@ -72,7 +72,7 @@ For easy to use, we provide the object bounding boxes used in our paper, which a
 ## Evaluation
 
 1. Download the pretrained Models or prepare your trained models.
-   - Pretrained Models: [Baidu Net Disk](https://pan.baidu.com/s/1NR0W0k04MypQ1z_O_S_0nA) (PassCode: kjok)
+   - Pretrained Models: [Dropbox](https://www.dropbox.com/sh/xw3hwwa9fc4miaa/AADrzpgrEDyIX-PyOmD6drnTa?dl=0) OR [Baidu Net Disk](https://pan.baidu.com/s/1NR0W0k04MypQ1z_O_S_0nA) (PassCode: kjok)
 2. Modify the parameter file path in the `test.sh` below `./experiments/[dataset]/`.
 3. Execute the testing script, such as:
    ```text
@@ -82,7 +82,7 @@ For easy to use, we provide the object bounding boxes used in our paper, which a
 
 ## Models & Results
 
-**Pretrained Models:** [Baidu Net Disk](https://pan.baidu.com/s/1NR0W0k04MypQ1z_O_S_0nA) (PassCode: kjok)
+**Pretrained Models:** [Dropbox](https://www.dropbox.com/sh/xw3hwwa9fc4miaa/AADrzpgrEDyIX-PyOmD6drnTa?dl=0) OR [Baidu Net Disk](https://pan.baidu.com/s/1NR0W0k04MypQ1z_O_S_0nA) (PassCode: kjok)
 
 | File Name                                   |   Dataset   | Split |  Backbone  | mAP(%) |
 |---------------------------------------------|:-----------:|:-----:|:----------:|:------:|
